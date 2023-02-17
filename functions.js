@@ -15,9 +15,8 @@
 
 
 // without return keyword, the function call return undefined
-function average(num1, num2, num3) {
-    let sum = num1 + num2 + num3
-    return sum
+function testme() {
+    console.log('test me please1')
 }
 
-console.log(average(12, 1))
+testme()
