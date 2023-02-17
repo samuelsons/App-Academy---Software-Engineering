@@ -13,14 +13,9 @@
 // // Syntax is a Function call
 // console.log(average(4, 12)) // Num 4 * 12 are arguments.
 
-console.log("First!")
-
-function callMe() {
-    console.log("Second!")
-    console.log("Third!")
+function average(num1, num2) {
+    let sum = num1 + num2
+    return sum
 }
 
-callMe()
-
-
-console.log("Fourth!")
+console.log(average(12, 2))
