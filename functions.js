@@ -13,9 +13,11 @@
 // // Syntax is a Function call
 // console.log(average(4, 12)) // Num 4 * 12 are arguments.
 
-function average(num1, num2) {
-    let sum = num1 + num2
+
+// without return keyword, the function call return undefined
+function average(num1, num2, num3) {
+    let sum = num1 + num2 + num3
     return sum
 }
 
-console.log(average(12, 2))
+console.log(average(12, 1))
