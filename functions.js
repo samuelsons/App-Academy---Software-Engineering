@@ -10,4 +10,4 @@ function average(number1, number2) {
     return (number1 * number2) / 2
 }
 
-console.log(average(4, 5))
+console.log(average(4, 12))
