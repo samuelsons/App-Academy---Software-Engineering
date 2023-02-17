@@ -7,7 +7,9 @@
 // Functions @ AppAcademy.io
 
 function average(number1, number2) {
-    return (number1 * number2) / 2
+    return (number1 + number2) / 2 //number1 is parameter.
 }
 
-console.log(average(4, 12))
+// Syntax is a Function call
+console.log(average(4, 12)) // Num 4 * 12 are arguments.
+
