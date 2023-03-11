@@ -15,8 +15,25 @@
 
 
 // without return keyword, the function call return undefined
-function testme() {
-    console.log('test me please1')
+// function testme() {
+//     console.log('test me please1')
+// }
+
+// testme()
+
+// function testme() {
+//     return true // returns true
+
+//     //no more syntax execution beyond this point.
+//     return false
+// }
+
+// console.log(testme())
+
+var triple = function(x) {
+    return x * 3
 }
 
-testme() 
+var waffle = triple
+
+console.log(waffle(30))
